@@ -36,4 +36,12 @@ setup(
         "Framework :: Django :: 2.1"
     ],
     python_requires='>=3.6',
+    entry_points={
+        "console_scripts": [
+            "x-blog-manage": ""
+        ],
+        "gui_scripts": [
+
+        ]
+    }
 )
