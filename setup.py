@@ -13,8 +13,7 @@ setup(
 
     package_data={
 
-    }
-
+    },
     author="xiaojueguan",
     author_email="xiaojueguan@gmail.com",
     description="A blog web application package",
@@ -22,11 +21,11 @@ setup(
     long_description_content_type="text/markdown",
     keywords="blog django python",
     url="https://github.com/albertjone/x-blog",
-    project_urls = {
+    project_urls={
         "Bug Tracker": "https://github.com/albertjone/x-blog/issues",
         "Documentation": "https://github.com/albertjone/x-blog/blob/master/readme.md",
         "Source Code": "https://github.com/albertjone/x-blog"
-    }
+    },
 
     classifiers=[
         "Programming Language :: Python :: 3.6",
@@ -38,7 +37,6 @@ setup(
     python_requires='>=3.6',
     entry_points={
         "console_scripts": [
-            "x-blog-manage": ""
         ],
         "gui_scripts": [
 
