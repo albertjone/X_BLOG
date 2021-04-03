@@ -9,7 +9,13 @@ setup(
     packages=find_packages(),
     scripts=[],
 
-    install_requires=[],
+    install_requires=[
+        'django>=2.1',
+        'django-markdownx==2.0.28',
+        'djangorestframework>=3.11.0',
+        'mysqlclient!=1.1.5,!=1.1.6,!=1.1.7,!=1.1.8,>=1.0.10',
+        'alembic>=1.4.2',
+    ],
 
     package_data={
 
